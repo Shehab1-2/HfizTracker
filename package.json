@@ -2,17 +2,18 @@
   "name": "hifz-front-end",
   "main": "expo-router/entry",
   "version": "1.0.0",
+  "private": true,
+  "homepage": "https://shehab1-2.github.io/HfizTracker",
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web",
+    "web": "expo build:web",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "build:web": "npx expo export:web",
-    "predeploy": "npx expo export",
-    "deploy": "gh-pages -b gh-pages -d dist"
+    "predeploy": "npm run web",
+    "deploy": "gh-pages -b gh-pages -d web-build"
   },
   "jest": {
     "preset": "jest-expo"
@@ -60,7 +61,5 @@
     "typescript": "^5.3.3",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1"
-  },
-  "private": true,
-  "homepage": "https://shehab1-2.github.io/HfizTracker"
+  }
 }
