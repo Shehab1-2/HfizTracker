@@ -1,50 +1,112 @@
-# Welcome to your Expo app 👋
+# ✨ Quran Memorization Dashboard ✨
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> A fresh take on tracking your Quran memorization progress—_simple, visual, and oh-so Gen Z._
 
-## Get started
+## Table of Contents
 
-1. Install dependencies
+1. [About](#about)
+2. [Screenshots](#screenshots)
+3. [Features](#features)
+4. [Getting Started](#getting-started)
+5. [Usage](#usage)
+6. [Tech Stack](#tech-stack)
+7. [Contributing](#contributing)
+8. [License](#license)
+9. [Contact](#contact)
+
+## About
+
+**Quran Memorization Dashboard** is a modern and interactive RN-based app (React Native) that helps you:
+
+- Track verses memorized per Surah
+- Visualize daily, weekly, monthly, or yearly progress
+- Check how many Juz you've completed
+- See a dope bar chart of your memorization history
+
+Basically, it's your personal hype tool for staying consistent. No more scattered notes—track everything in one aesthetic place!
+
+## Screenshots
+
+|                            **Home / Dashboard**                             |                              **Surah List**                              |                                **Update Modal**                                |
+| :-------------------------------------------------------------------------: | :----------------------------------------------------------------------: | :----------------------------------------------------------------------------: |
+| <img src="https://via.placeholder.com/200x350?text=Dashboard" width="200"/> | <img src="https://via.placeholder.com/200x350?text=Surahs" width="200"/> | <img src="https://via.placeholder.com/200x350?text=Update+Modal" width="200"/> |
+
+<sub>_Mock images used above for illustration._</sub>
+
+## Features
+
+- **🔥 Real-time stats**: See total verses memorized, surahs completed, daily average, and Juz progress at a glance.
+- **📈 Time-based Charts**: Swap between week, month, year, or all-time to flex how many verses you've memorized so far.
+- **📝 Surah-by-Surah Tracking**: Update each surah's memorized verse count in seconds.
+- **📊 Responsive**: Looks good whether you're on a tablet or phone.
+- **🎨 Aesthetic**: Dark theme with bright orange vibes—less stress on the eyes.
+
+## Getting Started
+
+1. **Clone This Repo**
 
    ```bash
-   npm install
+   git clone https://github.com/<YourUsername>/QuranMemorization.git
+   cd QuranMemorization
    ```
 
-2. Start the app
+2. **Install Dependencies**
 
    ```bash
-    npx expo start
+   npm install # or yarn install
    ```
 
-In the output, you'll find options to open the app in a
+3. **Run the App**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   ```bash
+   npm start # or yarn start
+   ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+4. **Build for Production**
+   - For **iOS/Android** (React Native CLI):
+     ```bash
+     npx react-native run-android
+     npx react-native run-ios
+     ```
+   - For **Expo**:
+     ```bash
+     expo start
+     ```
+   - For **Web** (if using RN for Web or Expo Web):
+     ```bash
+     npm run web
+     ```
 
-## Get a fresh project
+## Usage
 
-When you're ready, run:
+1. **Check Dashboard**: Get an overview of daily average, total memorized, surahs completed, and your Juz status.
+2. **Update Surahs**: Tap any surah card to open the modal and input how many verses you've memorized so far.
+3. **Toggle Filters**: In the "Overall Progress" chart, tap "WEEK," "MONTH," "YEAR," or "ALL" to see how your memorization changed over time.
+4. **Keep Goin'**: Each day you memorize, update your verse count; the dashboard automatically saves your daily total.
 
-```bash
-npm run reset-project
-```
+## Tech Stack
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- **React Native** – Core framework for cross-platform app development.
+- **React Native Paper** – UI components with sweet theming.
+- **AsyncStorage** – Local data storage for progress and history.
+- **React Native Chart Kit** – For gorgeous bar charts.
 
-## Learn more
+## Contributing
 
-To learn more about developing your project with Expo, look at the following resources:
+Pull requests, code reviews, bug reports, and feature requests are all super welcome. Let's make Quran memorization tracking even more dope!
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1. Fork the repo
+2. Create your feature branch: `git checkout -b feature/fancyNewFeature`
+3. Commit your changes: `git commit -m "feat: add fancy new feature"`
+4. Push to the branch: `git push origin feature/fancyNewFeature`
+5. Create a Pull Request
 
-## Join the community
+## License
 
-Join our community of developers creating universal apps.
+This project is licensed under the MIT License, so go forth and remix responsibly.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Contact
+
+**Questions?** Slide into the issues or start a discussion on GitHub. **Wanna collaborate?** Email me at `[yourEmail@domain.com]`.
+
+Made with ❤️ for a new generation of learners. _Stay consistent, and keep shining._
