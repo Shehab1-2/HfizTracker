@@ -1,6 +1,8 @@
-# ✨ Quran Memorization Dashboard ✨
+# ☪️ Haafiz - Your Quran Companion ✨
 
-> A fresh take on tracking your Quran memorization progress—_simple, visual, and oh-so Gen Z._
+> بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+>
+> "And We have certainly made the Quran easy for remembrance, so is there any who will remember?" - _Al-Qamar 54:17_
 
 ## Table of Contents
 
@@ -16,14 +18,14 @@
 
 ## About
 
-**Quran Memorization Dashboard** is a modern and interactive RN-based app (React Native) that helps you:
+**Haafiz** is a modern, interactive app designed to assist you on your journey of Hifz-ul-Quran. Named after those who have memorized the entire Quran (Huffaz), this app helps you:
 
-- Track verses memorized per Surah
-- Visualize daily, weekly, monthly, or yearly progress
-- Check how many Juz you've completed
-- See a dope bar chart of your memorization history
+- Track your Hifz progress Surah by Surah
+- Visualize your daily, weekly, monthly, or yearly journey
+- Monitor your progress through each Juz
+- Review your memorization history through intuitive charts
 
-Basically, it's your personal hype tool for staying consistent. No more scattered notes—track everything in one aesthetic place!
+Let this be your companion in the blessed journey of becoming closer to the Words of Allah سُبْحَانَهُ وَتَعَالَىٰ.
 
 ## Screenshots
 
@@ -35,19 +37,20 @@ Basically, it's your personal hype tool for staying consistent. No more scattere
 
 ## Features
 
-- **🔥 Real-time stats**: See total verses memorized, surahs completed, daily average, and Juz progress at a glance.
-- **📈 Time-based Charts**: Swap between week, month, year, or all-time to flex how many verses you've memorized so far.
-- **📝 Surah-by-Surah Tracking**: Update each surah's memorized verse count in seconds.
-- **📊 Responsive**: Looks good whether you're on a tablet or phone.
-- **🎨 Aesthetic**: Dark theme with bright orange vibes—less stress on the eyes.
+- **🌙 Comprehensive Tracking**: Monitor your progress through Surahs, Juz, and Ayaat with detailed statistics
+- **📈 Progress Visualization**: Track your journey through beautiful charts showing daily, weekly, monthly, or yearly progress
+- **📝 Surah-by-Surah**: Easily update your progress for each Surah
+- **📱 Responsive Design**: Beautiful interface optimized for both mobile and tablet
+- **🌆 Theme Options**: Choose between Light (An-Nur) and Dark (Al-Layl) themes
+- **🕌 Prayer Time Integration**: Optional reminders to revise during blessed times
 
 ## Getting Started
 
-1. **Clone This Repo**
+1. **Clone This Repository**
 
    ```bash
-   git clone https://github.com/<YourUsername>/QuranMemorization.git
-   cd QuranMemorization
+   git clone https://github.com/<YourUsername>/Haafiz.git
+   cd Haafiz
    ```
 
 2. **Install Dependencies**
@@ -56,13 +59,13 @@ Basically, it's your personal hype tool for staying consistent. No more scattere
    npm install # or yarn install
    ```
 
-3. **Run the App**
+3. **Start the App**
 
    ```bash
    npm start # or yarn start
    ```
 
-4. **Build for Production**
+4. **Build for Distribution**
    - For **iOS/Android** (React Native CLI):
      ```bash
      npx react-native run-android
@@ -72,41 +75,49 @@ Basically, it's your personal hype tool for staying consistent. No more scattere
      ```bash
      expo start
      ```
-   - For **Web** (if using RN for Web or Expo Web):
+   - For **Web**:
      ```bash
      npm run web
      ```
 
 ## Usage
 
-1. **Check Dashboard**: Get an overview of daily average, total memorized, surahs completed, and your Juz status.
-2. **Update Surahs**: Tap any surah card to open the modal and input how many verses you've memorized so far.
-3. **Toggle Filters**: In the "Overall Progress" chart, tap "WEEK," "MONTH," "YEAR," or "ALL" to see how your memorization changed over time.
-4. **Keep Goin'**: Each day you memorize, update your verse count; the dashboard automatically saves your daily total.
+1. **Dashboard Overview**: View your daily Hifz statistics, completed Surahs, and Juz progress
+2. **Track Progress**: Update your memorization progress after each session
+3. **Review History**: Use the timeline views to track your journey
+4. **Set Goals**: Create personalized targets for your Hifz journey
 
 ## Tech Stack
 
-- **React Native** – Core framework for cross-platform app development.
-- **React Native Paper** – UI components with sweet theming.
-- **AsyncStorage** – Local data storage for progress and history.
-- **React Native Chart Kit** – For gorgeous bar charts.
+- **React Native**: Core framework
+- **React Native Paper**: UI components
+- **AsyncStorage**: Local data persistence
+- **React Native Chart Kit**: Progress visualization
 
 ## Contributing
 
-Pull requests, code reviews, bug reports, and feature requests are all super welcome. Let's make Quran memorization tracking even more dope!
+We welcome contributions to improve this tool for the Ummah. Every line of code you contribute can help someone in their journey of connecting with the Quran.
 
-1. Fork the repo
-2. Create your feature branch: `git checkout -b feature/fancyNewFeature`
-3. Commit your changes: `git commit -m "feat: add fancy new feature"`
-4. Push to the branch: `git push origin feature/fancyNewFeature`
-5. Create a Pull Request
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/NewFeature`
+3. Commit changes: `git commit -m "feat: add NewFeature"`
+4. Push to the branch: `git push origin feature/NewFeature`
+5. Submit a Pull Request
 
 ## License
 
-This project is licensed under the MIT License, so go forth and remix responsibly.
+This project is licensed under the MIT License. Feel free to use and modify it for the benefit of the community.
 
 ## Contact
 
-**Questions?** Slide into the issues or start a discussion on GitHub. **Wanna collaborate?** Email me at `[yourEmail@domain.com]`.
+For questions, suggestions, or collaboration, please:
 
-Made with ❤️ for a new generation of learners. _Stay consistent, and keep shining._
+- Open an issue on GitHub
+- Start a discussion
+- Email us at `[yourEmail@domain.com]`
+
+---
+
+Made with dedication for the seekers of Allah's words. _May Allah سُبْحَانَهُ وَتَعَالَىٰ accept our efforts and make the Quran the light of our hearts._
+
+> "Indeed, those who recite the Book of Allah, establish prayer, and spend out of what We have provided for them, secretly and publicly, can hope for a transaction that will never perish." - _Fatir 35:29_
