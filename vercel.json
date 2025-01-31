@@ -1,0 +1,7 @@
+{
+    "build": {
+      "command": "npx expo export --output-dir dist",
+      "outputDirectory": "dist"
+    }
+  }
+  
